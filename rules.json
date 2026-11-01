@@ -1,0 +1,248 @@
+[
+{
+"id": "carencia",
+"title": "Período de carência",
+"category": "Móvel",
+"summary": "Após um downgrade, o upgrade só volta a ser remunerado a partir de M4.",
+"steps": [
+"Identifique o mês do downgrade: ele é o M0.",
+"Considere M1, M2 e M3 como meses seguintes de carência.",
+"A partir de M4, o upgrade fica fora dessa restrição."
+],
+"impact": "Upgrades em M0, M1, M2 e M3 não são remunerados por esta regra.",
+"example": "Downgrade em setembro: M0 setembro; M1 outubro; M2 novembro; M3 dezembro; M4 janeiro.",
+"attention": "A contagem é por mês de referência. Estar em M4 não dispensa conferir as demais regras.",
+"slides": [
+2
+]
+},
+{
+"id": "tfp",
+"title": "TFP • primeiras faturas",
+"category": "Móvel",
+"summary": "Nas habilitações, migrações do pré e upgrades, acompanhe o pagamento das três primeiras faturas.",
+"steps": [
+"Oriente o cliente sobre o plano contratado e o pagamento das três primeiras faturas antes de reduzir o plano.",
+"Conforme a apresentação, priorize vencimentos 01, 06 ou 10 e ofereça débito automático.",
+"Mostre como acompanhar e pagar a fatura no app Vivo e faça pós-venda."
+],
+"impact": "Redução antes do pagamento das três primeiras faturas pode gerar penalização no TFP.",
+"example": "Se o plano de destino da redução for Vivo Total, o material prevê exceção à penalização do TFP.",
+"attention": "A exceção ao TFP não elimina o recálculo da remuneração por downgrade no mesmo mês.",
+"slides": [
+3,
+4
+]
+},
+{
+"id": "downgrade-mes",
+"title": "Downgrade no mesmo mês",
+"category": "Móvel",
+"summary": "A remuneração é recalculada sobre o valor reduzido quando a redução ocorre no mês da habilitação.",
+"steps": [
+"Confira a data da habilitação e do downgrade.",
+"Use o valor final do plano para conferir a remuneração.",
+"Providencie o ajuste correspondente no Vivo GO."
+],
+"impact": "O valor remunerado passa a acompanhar o plano após a redução.",
+"example": "Plano habilitado por R$ 99 e reduzido para R$ 85 no mesmo mês: a remuneração considera R$ 85.",
+"attention": "Se a redução for para Vivo Total, a exceção é à meta de TFP; o recálculo continua aplicável.",
+"slides": [
+4
+]
+},
+{
+"id": "suspensao",
+"title": "Suspensão comercial",
+"category": "Móvel",
+"summary": "Linhas bloqueadas por perda, roubo, fraude ou a pedido do cliente exigem atenção antes de uma nova ativação.",
+"steps": [
+"Verifique se existe alguma linha com suspensão comercial no CPF.",
+"Para nova linha, portabilidade ou migração Pré–Controle/Pré–Pós, desbloqueie e aguarde 30 dias.",
+"Confira as restrições mesmo quando a nova ativação for em outro DDD."
+],
+"impact": "Ativar sem cumprir o procedimento pode caracterizar alta seguida de suspensão.",
+"example": "O exemplo permitido no material é desbloquear a linha existente e realizar upgrade nela.",
+"attention": "Bloqueio por cobrança não é considerado suspensão comercial nesta regra.",
+"slides": [
+5
+]
+},
+{
+"id": "mn",
+"title": "Mesmo Número • MN",
+"category": "Móvel",
+"summary": "Uma linha migrada para pré e reativada em Controle ou Pós em até 60 dias caracteriza Mesmo Número.",
+"steps": [
+"Consulte o histórico da linha e a data de migração para pré.",
+"Verifique o intervalo até o retorno ao Controle ou Pós.",
+"Considere a regra mesmo que haja troca de CPF/CNPJ ou de titularidade."
+],
+"impact": "A movimentação descrita não gera remuneração, independentemente do valor do plano.",
+"example": "Linha migra para pré e retorna ao Controle após 45 dias: enquadra-se em MN.",
+"attention": "O prazo de MN é diferente do prazo de reabilitação e da permanência de titularidade.",
+"slides": [
+6
+]
+},
+{
+"id": "reabilitacao",
+"title": "MN • reabilitação",
+"category": "Móvel",
+"summary": "Reativar uma linha cancelada em menos de 31 dias caracteriza MN Reabilitação.",
+"steps": [
+"Confira a data de cancelamento da linha.",
+"Identifique se a reativação ocorre em menos de 31 dias.",
+"O material apresenta reativar no plano antigo e depois realizar upgrade como procedimento possível."
+],
+"impact": "A reabilitação em menos de 31 dias não gera remuneração. O upgrade posterior é apresentado como remunerável.",
+"example": "Cancelamento em 10/08 e reativação em 25/08: a reabilitação não remunera.",
+"attention": "Segundo o material, a linha cancelada não é considerada em carência. Confira as outras condições do upgrade.",
+"slides": [
+7
+]
+},
+{
+"id": "inversao",
+"title": "Inversão de titularidade",
+"category": "Titularidade",
+"summary": "Ocorre quando uma nova linha assume a titularidade e a antiga titular vira dependente, migra para pré ou é cancelada na janela de 30 dias.",
+"steps": [
+"Analise os 30 dias anteriores e posteriores à nova ativação.",
+"Identifique a titularidade de origem de cada linha.",
+"Quando houver linha soberana e simples no mesmo CPF, preserve a soberana como titular."
+],
+"impact": "Inversão de titularidade invalida a flexibilização de MD.",
+"example": "Cliente já possui Família e Controle e quer um novo Família: a linha Família de origem deve ser considerada na manutenção da titularidade.",
+"attention": "Soberanos: Vivo Total, Família e Vivo V. Simples: Controle e Pós Individual. O material lista Pré, nova linha, dependente e portabilidade de entrada como não titulares, sujeito ao histórico de origem.",
+"slides": [
+8,
+9
+]
+},
+{
+"id": "permanencia",
+"title": "Permanência de titularidade",
+"category": "Titularidade",
+"summary": "Uma linha titular migrada para pré mantém o status de titular de origem por até 90 dias.",
+"steps": [
+"Confira se a linha era titular simples ou soberana antes de ir para pré.",
+"Consulte a data da migração e verifique a janela de 90 dias.",
+"No novo plano Família, mantenha essa linha como titular e coloque a nova alta ou portabilidade como dependente."
+],
+"impact": "Colocar a antiga titular como dependente dentro desse prazo pode caracterizar inversão.",
+"example": "Linha titular foi para pré há 40 dias. Ao contratar Família com um novo número, a antiga titular entra como titular; o novo número, como dependente.",
+"attention": "Não confunda os 90 dias de titularidade com os 60 dias de MN: são verificações diferentes.",
+"slides": [
+21
+]
+},
+{
+"id": "md",
+"title": "Mesmo Documento • MD",
+"category": "Móvel",
+"summary": "MD considera movimentações no CPF nos 30 dias anteriores ou posteriores ao serviço ativado.",
+"steps": [
+"Analise cancelamentos, migração para pré, mudança para dependente, downgrade e upgrade no CPF.",
+"Verifique se o caso se enquadra em uma das flexibilizações.",
+"Confira se há suspensão comercial, inversão de titularidade ou MN; essas ocorrências invalidam a flexibilização."
+],
+"impact": "O material prevê flexibilizações com ganho de receita total e atendimento às demais regras.",
+"example": "As três combinações apresentadas são baixa + upgrade, alta + downgrade e downgrade + upgrade.",
+"attention": "O material traz divergência na redação do limite de R$ 10. Para ganho exatamente de R$ 10, confirme com a gestão antes de concluir a análise.",
+"slides": [
+10
+]
+},
+{
+"id": "flexibilizacoes",
+"title": "Flexibilizações de MD",
+"category": "Móvel",
+"summary": "Três combinações podem permitir remuneração quando há ganho de receita e as demais regras são atendidas.",
+"steps": [
+"Some a receita anterior de todas as linhas envolvidas.",
+"Some a receita após a movimentação e calcule a diferença.",
+"Verifique titularidade, carência, MN e suspensão; ganho de receita sozinho não garante a remuneração."
+],
+"impact": "A apresentação exemplifica operações com ganho superior a R$ 10. Casos de ganho exatamente igual a R$ 10 exigem validação.",
+"example": "Baixa + upgrade: R$ 60 + R$ 60 = R$ 120 → uma linha vai para pré e a outra para R$ 170: ganho R$ 50. Alta + downgrade: R$ 99 → R$ 70 + R$ 60 = R$ 130: ganho R$ 31. Downgrade + upgrade: R$ 99 + R$ 50 = R$ 149 → R$ 70 + R$ 120 = R$ 190: ganho R$ 41.",
+"attention": "Correção aritmética do slide 13: R$ 70 + R$ 120 somam R$ 190; o original registra R$ 199.",
+"slides": [
+11,
+12,
+13
+]
+},
+{
+"id": "descontos",
+"title": "Descontos recorrentes",
+"category": "Móvel e Fixa",
+"summary": "Para ofertas com desconto superior a seis meses, o material considera o valor promocional pago em fatura como assinatura bruta.",
+"steps": [
+"Confira o desconto recorrente e seu período no histórico.",
+"Identifique o valor promocional efetivamente pago pelo cliente.",
+"Compare esse valor com a nova oferta e confira as demais condições."
+],
+"impact": "O valor promocional é a referência apresentada para analisar o upgrade.",
+"example": "Cliente paga R$ 100 após desconto recorrente de R$ 50 há mais de seis meses. No exemplo, a migração para Vivo Total com fibra por R$ 110 é apresentada como upgrade válido.",
+"attention": "A apresentação usa mais de seis meses como condição. Não trate desconto pontual ou contestação como desconto recorrente.",
+"slides": [
+14
+]
+},
+{
+"id": "upgrade-fixa",
+"title": "Upgrade de Fibra/Fixa",
+"category": "Fibra/Fixa",
+"summary": "Analise a última fatura cheia, o ciclo de faturamento e o histórico de pedidos para conferir o upgrade.",
+"steps": [
+"Considere a última fatura cheia e identifique seu ciclo.",
+"Verifique se o valor foi afetado por contestação automática.",
+"Consulte downgrade, upgrade e descontos no Gerenciador de Pedidos."
+],
+"impact": "A análise deve considerar os valores dos serviços envolvidos e o histórico da oferta.",
+"example": "Banda larga de R$ 63 + fixo de R$ 20 = R$ 83 → banda larga de R$ 110 + fixo de R$ 20 = R$ 130: acréscimo de R$ 47.",
+"attention": "O material exemplifica desconto lançado em 12/06/2024 e upgrade em 03/07/2026. Confira o histórico real do cliente.",
+"slides": [
+15,
+16
+]
+},
+{
+"id": "composicao-fixa",
+"title": "Movimentações de Fixa e TV",
+"category": "Fibra/Fixa",
+"summary": "Fibra, telefone fixo e TV são analisados pela receita total de produtos de fixa no CPF.",
+"steps": [
+"Some os valores anteriores de todos os produtos de fixa envolvidos.",
+"Some os valores finais após reduções, cancelamentos e inclusões.",
+"Classifique o resultado como aumento ou redução da receita total."
+],
+"impact": "A ativação de TV isoladamente não garante upgrade: importa o saldo total. O material exige ganho maior que R$ 10 para remunerar.",
+"example": "Exemplo positivo: R$ 100 de fibra + R$ 47 de fixo = R$ 147 → R$ 85 de fibra + R$ 170 de TV = R$ 255: ganho R$ 108. Exemplo negativo: R$ 208 → R$ 85 de fibra + R$ 65 de TV = R$ 150: redução R$ 58.",
+"attention": "Segundo o material, a leitura de downgrade nessa flexibilização de fixa não caracteriza período de carência.",
+"slides": [
+17,
+18,
+19,
+20
+]
+},
+{
+"id": "realta",
+"title": "Realta",
+"category": "Fibra/Fixa",
+"summary": "Realta é a venda de uma segunda banda larga, com ou sem baixa posterior, pelo mesmo cliente ou por outro que tenha alguma relação.",
+"steps": [
+"Identifique se existe uma segunda contratação de banda larga.",
+"Verifique o vínculo com o cliente da contratação anterior.",
+"Encaminhe à gestão para validar os critérios antes de considerar remuneração."
+],
+"impact": "O arquivo não detalha os critérios de prazo, vínculo e remuneração de Realta.",
+"example": "O conceito está no slide 22; o restante desse slide repete um exemplo de titularidade.",
+"attention": "Conteúdo parcial: esta página reúne somente o conceito disponível. Os critérios precisam ser complementados.",
+"slides": [
+22
+]
+}
+]
